@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js" defer></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" defer></script>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="dhouha.css"> 
+    <title>Document</title>
+</head>
+<body>
+        <div class="crud">
+            <div class="head">
+                <h2>cruds</h2>
+                <p>Product Management System</p>
+            </div>
+            <div class="inputs">
+                <input placeholder="Title" type="text" id="title">
+                <div class="price">
+                    <input type="number" id="price" placeholder="Price">
+                    <input type="number" id="taxe" placeholder="Taxe">
+                    <input type="number" id="ads" placeholder="Ads">
+                    <input type="number" id="discount" placeholder="Discount">
+                    <small id="total">4567</small> 
+                </div>
+             <input type="number" id="count" placeholder="Count">
+             <input type="text" id="categorie" placeholder="Caregorie">
+             <button>Create</button>
+            </div>
+            <div class="outputs">
+                <div class="searchBlock">
+                    <input type="text" id="search" placeholder="Search">
+                    <div class="btnSearch">
+                        <button type="text" id="searchTitle">Search By Title</button>
+                        <button type="text" id="searchCategory">Search By Categoy</button>
+                    </div>
+                </div>
+
+            </div>
+            <table>
+                <tr>
+                <th>id</th>
+                <th>Title</th>
+                <th>Price</th>
+                <th>Taxes</th>
+                <th>Ads</th>
+                <th>Discount</th>
+                <th>Total</th>
+                <th>Category</th>
+                <th>Uptade</th>
+                <th>Delete</th>
+                
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td>sumsung</td>
+                    <td>3200</td>
+                    <td>100</td>
+                    <td>150</td>
+                    <td>frd</td>
+                    <td>phone</td>
+                    <td>dffd</td>
+                    <td><button>Update</button></td>
+                    <td><button>Delete</button></td>
+                    
+                    </tr>
+            </table>
+        </div>
+
+</body>
+</html>
